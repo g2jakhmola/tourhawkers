@@ -6,7 +6,7 @@
         
         <link href="https://fonts.googleapis.com/css?family=Lato:100" rel="stylesheet" type="text/css">
 
-        <link href="resources/css/style.css" rel="stylesheet" type="text/css">
+        <link href="/resources/css/style.css" rel="stylesheet" type="text/css">
 
         <link rel="stylesheet" type="text/css" href="resources/css/bootstrap.min.css">
 

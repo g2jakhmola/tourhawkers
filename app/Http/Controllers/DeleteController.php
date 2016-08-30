@@ -10,7 +10,7 @@ class DeleteController extends Controller
 {
     function delete(Task $task){
     	$task->delete();
-    	return redirect('/');
+    	return redirect('/taskdetails');
 
     }
 }

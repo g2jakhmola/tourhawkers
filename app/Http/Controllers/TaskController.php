@@ -16,7 +16,7 @@ class TaskController extends Controller
 	    ]);
 
 	    if ($validator->fails()) {
-	        return redirect('/')
+	        return redirect('/taskdetails')
 	            ->withInput()
 	            ->withErrors($validator);
 	    }
@@ -26,6 +26,6 @@ class TaskController extends Controller
 	    $task->name = $request->name;
 	    $task->save();
 
-	    return redirect('/');
+	    return redirect('/taskdetails');
     }
 }
